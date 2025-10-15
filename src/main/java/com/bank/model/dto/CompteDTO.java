@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 @Data
-public class CompteDTO {
+public class CompteDTO  extends BaseDto{
 private double solde;
 @JsonIgnoreProperties("comptes")
 private UtilisateurDTO utilisateur;
